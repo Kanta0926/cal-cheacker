@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div id="top"></div>
 
-## Getting Started
+## 🔧 Technologies & Tools
+<!-- シールド一覧 -->
+![](https://img.shields.io/badge/UI-Figma-informational?style=flat&logo=figma&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-React-informational?logo=react&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-Next-informational?logo=nextdotjs&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Server-Next-informational?logo=vercel&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/AdSense-Google%20AdSense-informational?logo=googleads&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-TypeScript-informational?style=flat&logo=typescript&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/CSS-TailWind-informational?logo=tailwindcss&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Editor-VScode-informational?style=flat&logo=intellijidea&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-Node.js-informational?logo=nodedotjs&logoColor=white&color=2bbc8a)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 目次
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. [プロジェクト](#プロジェクト)
+2. [作成意図](#作成意図)
+3. [今後の修正](#今後の修正)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## プロジェクト名
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+カロリーチェッカー
+- [カロリーチェッカー](https://cal-cheacker.vercel.app/)
 
-## Learn More
+## 💡プロジェクトについて
 
-To learn more about Next.js, take a look at the following resources:
+料理の食材や調味料を入れると、OpenAiがAPI経由で総カロリーを返してくれる
+サイトとなってます。
+自分自身で使う意味も含めて作成しました。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚡作成意図
+1. React,Nextに触れる
+初めて、React,Nextに触れました。
+React独自の記法や、概念を学習したく今回採用しました。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+2. Tailwindの使用
+前回のNuxtでのサイト作成時、初期はTailwindを使用していました。、
+しかし、個人的にNuxtとあまり相性がいいように感じなかったため、最終的に使わない方向で作成しました。
+今回Reactでの作成ということで、Tailwindを使用しているサイトが多く感じたため採用しました。
+Tailwind v4が最近のアップデートだったため情報が多くなかったのが少し苦労しました。
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Google AdSense
+よく使うサイトの広告の出し方が面白かったため、
+自身でも広告をつけてみたいと思い今回使用しました。
+現在は一時的に、コメントアウトしてます。
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 今後の修正
+1. 自身のXsreverにnodeを入れてそっちでデプロイしたい
+2. Googleアナリティクスを入れる
+<p align="right">(<a href="#top">トップへ</a>)</p>
