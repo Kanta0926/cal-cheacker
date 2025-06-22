@@ -1,6 +1,28 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
+
+import {
+  Geist,
+  Geist_Mono,
+  Gothic_A1,
+  Zen_Maru_Gothic,
+} from "next/font/google";
 import "./globals.css";
+
+// フォント設定はそのまま
+const zenMaruGothic = Zen_Maru_Gothic({
+  variable: "--font-zenMaruGothic",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "700", "900"],
+  display: "swap",
+});
+
+const gothicA1 = Gothic_A1({
+  variable: "--font-gothicA1",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  display: "swap",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,8 +45,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="ja">
+      <head>
+        {/* 広告の読み込み */}
+        <Script
+          id="adsbygoogle-init"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3692703811848538"
+          // SSRに含まないため下記記述
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
+      </head>
+      <body
+        className={`${gothicA1.variable} ${zenMaruGothic.variable} ${geistSans.variable} ${geistMono.variable}`}
+      >
         {children}
       </body>
     </html>
