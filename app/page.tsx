@@ -128,23 +128,17 @@ export default function Home() {
           );
         })()}
 
-      <div className="bg-white font-bold flex flex-col items-center justify-center">
+      <div className="bg-white font-bold flex flex-col items-center justify-center p-5">
         <h3 className="pt-6">使い方</h3>
         <div className="p-5 flex items-center justify-center">
-          <div className="font-bold text-sm p-5 flex flex-col items-center justify-center">
+          <div className="font-bold text-sm p-2 flex flex-col items-center justify-center">
             <span className="">①気になるレシピの材料をコピー</span>
-            <img
-              className="w-40 h-40 pt-2"
-              src="/Desktop Screenshot 2025.07.01 - 17.11.34.15.png"
-              alt=""
-            />
+            <img className="w-40 h-40 pt-2" src="/howto02.png" alt="" />
           </div>
-          <img
-            className="font-bold text-sm p-5 flex flex-col items-center justify-center"
-            src="/howto01.png"
-          />
-          <span>②貼り付ける</span>
-          <img className="w-40 h-40 pt-2" src="/howto02.png" alt="" />
+          <div className="font-bold p-2 text-sm flex flex-col items-center justify-center">
+            <span>②貼り付ける</span>
+            <img className="w-40 h-40 pt-2" src="/howto01.png" alt="" />
+          </div>
         </div>
       </div>
     </main>
