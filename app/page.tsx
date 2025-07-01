@@ -127,6 +127,31 @@ export default function Home() {
             </div>
           );
         })()}
+
+      <div className="bg-white font-bold flex flex-col items-center justify-center">
+        <h3 className="pt-6">使い方</h3>
+        <div className="p-5 flex items-center justify-center">
+          <div className="font-bold text-sm p-5 flex flex-col items-center justify-center">
+            <span className="">①気になるレシピの材料をコピー</span>
+            <img
+              className="w-40 h-40 pt-2"
+              src="Desktop Screenshot 2025.07.01 - 17.11.34.15.png"
+              alt=""
+            />
+          </div>
+          <div
+            className="font-bold text-sm p-5 flex flex-col items-center justify-center"
+            src="Desktop Screenshot 2025.07.01 - 17.04.56.16.png"
+          >
+            <span>②貼り付ける</span>
+            <img
+              className="w-40 h-40 pt-2"
+              src="Desktop Screenshot 2025.07.01 - 17.04.56.16.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
