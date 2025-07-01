@@ -139,17 +139,12 @@ export default function Home() {
               alt=""
             />
           </div>
-          <div
+          <img
             className="font-bold text-sm p-5 flex flex-col items-center justify-center"
-            src="Desktop Screenshot 2025.07.01 - 17.04.56.16.png"
-          >
-            <span>②貼り付ける</span>
-            <img
-              className="w-40 h-40 pt-2"
-              src="/Desktop Screenshot 2025.07.01 - 17.04.56.16.png"
-              alt=""
-            />
-          </div>
+            src="/howto01.png"
+          />
+          <span>②貼り付ける</span>
+          <img className="w-40 h-40 pt-2" src="/howto02.png" alt="" />
         </div>
       </div>
     </main>
