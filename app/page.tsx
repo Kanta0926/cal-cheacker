@@ -135,7 +135,7 @@ export default function Home() {
             <span className="">①気になるレシピの材料をコピー</span>
             <img
               className="w-40 h-40 pt-2"
-              src="Desktop Screenshot 2025.07.01 - 17.11.34.15.png"
+              src="/Desktop Screenshot 2025.07.01 - 17.11.34.15.png"
               alt=""
             />
           </div>
@@ -146,7 +146,7 @@ export default function Home() {
             <span>②貼り付ける</span>
             <img
               className="w-40 h-40 pt-2"
-              src="Desktop Screenshot 2025.07.01 - 17.04.56.16.png"
+              src="/Desktop Screenshot 2025.07.01 - 17.04.56.16.png"
               alt=""
             />
           </div>
